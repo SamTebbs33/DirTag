@@ -1,6 +1,10 @@
 # DirTag
 A java app that creates quick "cd" shortcuts for you
 
+In the below example, I use a custom command **rl** to reload my **.bash_profile** file, which loads the new dirtag. It is just an alias for ". ~/.bash_profile"
+
+![alt tag](https://github.com/SamTebbs33/DirTag/blob/master/example.gif)
+
 # Contents
 * <a href="#Features">Features</a>
 * <a href="#Installation">Installation</a>
@@ -44,9 +48,3 @@ $ cdname
 ```
 
 * You will now have changed directory!
-
-<a id="Example">Example
-==========================
-In the below example, I use a custom command **rl** to reload my **.bash_profile** file, which loads the new dirtag. 
-
-![alt tag](https://github.com/SamTebbs33/DirTag/blob/master/example.gif)
