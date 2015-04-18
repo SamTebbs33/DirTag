@@ -21,10 +21,10 @@ Please note that this app only works on unix based systems! (It may work with un
 ```
 $ alias dirtag='java -jar dir/DirTag.jar'
 ```
-* Add the following lines to your __~/.bash_profile__ file (or whatever file is loaded when a new bash session is started). Replace _file_ with the path to the file you will store the aliases inside (The default is __~/.dirtags__).
+* Add the following lines to your __~/.bash_profile__ file (or whatever file is loaded when a new bash session is started). 
 ```
-if [ -f file ]; then
-  source file
+if [ -f ~/.dirtags ]; then
+  source ~/.dirtags
 fi
 ```
 
