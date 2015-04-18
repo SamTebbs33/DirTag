@@ -45,4 +45,4 @@ $ cdname
 
 # Examples
 In the below example, I use a custom command **rl** to reload my **.bash_profile** file, which loads the new dirtag. 
-![alt tag](https://raw.github.com/username/projectname/master/example.gif)
+![alt tag](https://raw.github.com/SamTebbs33/DirTag/blob/master/example.gif)
