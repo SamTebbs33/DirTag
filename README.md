@@ -10,8 +10,8 @@ A java app that creates quick "cd" shortcuts for you
 <a id="Features">Features
 ==========================
 * Creates a directory tag (bash alias) that you can use to swiftly cd to the current directory
-* The aliases can be stored in a file of your choice
-* List all previously created aliases
+* The aliases can be stored in a file of your choice (soon!)
+* List all previously created aliases (soon!)
 
 <a id="Installation">Installation
 ==========================
@@ -45,7 +45,7 @@ $ cdname
 
 * You will now have changed directory!
 
-<a id="Examples">Examples
+<a id="Example">Example
 ==========================
 In the below example, I use a custom command **rl** to reload my **.bash_profile** file, which loads the new dirtag. 
 
