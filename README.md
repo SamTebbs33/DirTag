@@ -13,7 +13,8 @@ A java app that creates quick "cd" shortcuts for you
 * The aliases can be stored in a file of your choice
 * List all previously created aliases
 
-# Installation
+<a id="Installation">Installation
+==========================
 Please note that this app only works on unix based systems! (It may work with unix shell emulators however)
 * Download the a jar file from the **Releases** tab and place in any directory
 * Enter the following command, replacing __dir__ with the path to the current directory
@@ -30,7 +31,8 @@ fi
 
 This will ensure that the dirtags are loaded when a new bash session is started.
 
-# Usage
+<a id="Usage">Usage
+==========================
 * When inside a directory that you'd like to make a shortcut/dirtag to, enter the follwoing command, replacing __name__ with the tag name.
 ```
 $ dirtag name
@@ -43,6 +45,8 @@ $ cdname
 
 * You will now have changed directory!
 
-# Examples
+<a id="Examples">Examples
+==========================
 In the below example, I use a custom command **rl** to reload my **.bash_profile** file, which loads the new dirtag. 
+
 ![alt tag](https://github.com/SamTebbs33/DirTag/blob/master/example.gif)
