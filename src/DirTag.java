@@ -47,7 +47,7 @@ public class DirTag {
 	}else{
 	    System.out.println(String.format("Listing aliases in %s", aliasFilePath));
 	    try {
-		String[] lines = (String[])(Files.lines(Paths.get(aliasFilePath, "")).toArray());
+		String[] lines = (String[])(Files.lines(Paths.get(aliasFilePath.replaceFirst("~", System.getProperty("user.home")), "")).toArray());
 		for(String line : lines){
 		    String[] split = line.split(" ");
 		    if(split.length >= 2){
