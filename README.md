@@ -19,12 +19,12 @@ Please note that this app only works on unix based systems! (It may work with un
 * Enter the following command, replacing __dir__ with the path to the current directory
 
 ```
-$ alias dirtag='java -jar __dir__/DirTag.jar'
+$ alias dirtag='java -jar dir/DirTag.jar'
 ```
 * Add the following lines to your __~/.bash_profile__ file (or whatever file is loaded when a new bash session is started). Replace _file_ with the path to the file you will store the aliases inside (The default is __~/.dirtags__).
 ```
-if [ -f _file_ ]; then
-  source _file_
+if [ -f file ]; then
+  source file
 fi
 ```
 
@@ -33,14 +33,16 @@ This will ensure that the dirtags are loaded when a new bash session is started.
 # Usage
 * When inside a directory that you'd like to make a shortcut/dirtag to, enter the follwoing command, replacing __name__ with the tag name.
 ```
-$ dirtag __name__
+$ dirtag name
 ```
 
 * Now, start a new bash session, go to a totally different directory and enter the following command, replacing __name__ with the tag name.
 ```
-$ cd__name__
+$ cdname
 ```
 
 * You will now have changed directory!
 
 # Examples
+In the below example, I use a custom command **rl** to reload my **.bash_profile** file, which loads the new dirtag. 
+![alt tag](https://raw.github.com/username/projectname/master/example.gif)
