@@ -7,7 +7,8 @@ A java app that creates quick "cd" shortcuts for you
 * <a href="#Usage">Usage</a>
 * <a href="#Example">Example</a>
 
-<a id="Features"># Features
+<a id="Features">Features
+==========================
 * Creates a directory tag (bash alias) that you can use to swiftly cd to the current directory
 * The aliases can be stored in a file of your choice
 * List all previously created aliases
@@ -20,10 +21,10 @@ Please note that this app only works on unix based systems! (It may work with un
 ```
 $ alias dirtag='java -jar __dir__/DirTag.jar'
 ```
-* Add the following lines to your __~/.bash_profile__ file (or whatever file is loaded when a new bash session is started). Replace __file__ with the path to the file you will store the aliases inside (The default is __~/.dirtags__).
+* Add the following lines to your __~/.bash_profile__ file (or whatever file is loaded when a new bash session is started). Replace _file_ with the path to the file you will store the aliases inside (The default is __~/.dirtags__).
 ```
-if [ -f __file__ ]; then
-  source__file__
+if [ -f _file_ ]; then
+  source _file_
 fi
 ```
 
