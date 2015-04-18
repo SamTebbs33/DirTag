@@ -5,11 +5,12 @@ In the below example, I use a custom command **rl** to reload my **.bash_profile
 
 ![alt tag](https://github.com/SamTebbs33/DirTag/blob/master/example.gif)
 
+Please note that it will only work on UNIX based systems, or perhaps programs that emulate one (not tested).
+
 # Contents
 * <a href="#Features">Features</a>
 * <a href="#Installation">Installation</a>
 * <a href="#Usage">Usage</a>
-* <a href="#Example">Example</a>
 
 <a id="Features">Features
 ==========================
