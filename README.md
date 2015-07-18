@@ -1,4 +1,6 @@
 # DirTag
+
+[![Join the chat at https://gitter.im/SamTebbs33/DirTag](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/SamTebbs33/DirTag?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 A java app that creates quick "cd" shortcuts for you
 
 In the below example, I use a custom command **rl** to reload my **.bash_profile** file, which loads the new dirtag. It is just an alias for ". ~/.bash_profile"
