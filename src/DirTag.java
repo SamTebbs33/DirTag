@@ -49,8 +49,7 @@ public class DirTag {
 	    } catch (IOException e) {
 		System.err.println(String.format("Could not create dirtag (%s) in %s: %s", tag, aliasFilePath, e.getMessage()));
 	    }
-	}
-	else{
+	}else{
 	    System.out.println(String.format("Listing aliases in %s", aliasFilePath));
 	    try {
 		String[] lines = (String[])(Files.lines(Paths.get(aliasFilePath.replaceFirst("~", System.getProperty("user.home")), "")).toArray());
